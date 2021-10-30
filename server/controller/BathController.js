@@ -1,5 +1,5 @@
 var express = require('express');
-const bath = require('./models/bath');
+const bath = require('../models/bath');
 var router = express.Router();
 
 router.post('/', function(request, response){

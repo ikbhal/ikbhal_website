@@ -5,7 +5,7 @@ const ObjectId = Schema.ObjectId;
 
 const SurahSchema = new Schema({
     number: {type:String, default: ''},
-    name: {type: string, default: ''},
+    name: {type: String, default: ''},
     totalAayats: {type: Number, default: ''},
 });
 

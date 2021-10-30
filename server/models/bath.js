@@ -8,4 +8,4 @@ const BathSchema = new Schema({
     status: {type: Boolean, default: false}
 });
 
-exports.BathModel = mongoose.model('Bath', BathSchema);a
+exports.BathModel = mongoose.model('Bath', BathSchema);

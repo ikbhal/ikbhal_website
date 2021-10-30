@@ -1,12 +1,12 @@
 
 var express = require('express');
-var surahController = require('../models/surah');
+var surah = require('../models/surah');
 var router = express.Router();
 
 
 router.post('/', function(request, response){
     console.log(request.body);
-    // response.send(request.body);
+     //response.send(request.body);
 
     const suranInstance = new surah.SurahModel();
     suranInstance.number = request.body.number;
